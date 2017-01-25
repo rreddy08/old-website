@@ -28,4 +28,9 @@ i{
 	margin-top: 1em;
 	height: 20px;
 	font-size:4em !important;
+	color: red;
+}
+.back{
+	text-align: right;
+	vertical-align: right;
 }
