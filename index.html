@@ -6,12 +6,42 @@
     <link rel="stylesheet" href = "bootstrap/css/bootstrap.css">
     <link href="https://fonts.googleapis.com/css?family=Gudea|Signika" rel="stylesheet">
     <link href="fa/css/font-awesome.css" rel="stylesheet">
-  
-   </head>
-   <body>
+	 <script src="jquery-3.1.1.min.js"></script>  
+
+  </head>
+   <body id= "home">
+   <div class="container">
+      <div class="header">
+        <div class="nav">
+          <h1 class="name"><a id="noline" class="about">rithvik reddy</a></h1>
+          <ul id="primary-nav" class="nav">
+            <li class="about"> <a id="about" data-toggle="modal" data-target="#aboutModal">about</a></li>
+            <li class="about"> <a id="projects" data-toggle="modal" data-target="#projectsModal">projects</a></li>
+          </ul>
+        </div>
+      </div>
+   </div>
+   		<div class= "modal fade" id= "aboutModal" tabindex= "-1" role= "dialog" aria-labelledby="aboutModalLabel">
+   			<div class= "modal-dialog" role= "document">
+   				<div class= "modal-content">
+   					<div class= "modal-header">
+   						<h4 class= "modal-title" id= "aboutLabel"> About Rithvik </h4>
+   					</div>
+   					<div class= "modal-body">
+   						<h5>
+   							Hi! My name is Rithvik Reddy.
+   						</h5>
+   						<h6>
+   							I am currently a sophomore at Montgomery High School in Skillman, New Jersey. 
+   						</h6>
+   					</div>
+   					<div class= "modal-footer">
+   						<button type="button" class= "btn btn-default" data-dismiss= "modal">Close</button>
+   					</div>
+   				</div>
+   			</div>
+   		</div>
    <div class="background">
-   	<div class="back">
-   	</div>
    	<div class="main">
    		<a class= "logo">
    			<img src= "Personal-Logo-V1.png" alt= "Logo" style="width:100px;">
@@ -53,3 +83,4 @@
    	</div>
    </div>
    </body>
+   <script src = "bootstrap/js/bootstrap.js"> </script>

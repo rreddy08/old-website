@@ -4,18 +4,18 @@ html,body{
 	position: relative;
 }
 .background{
-	background-color:black;
+	background-color: black;
 	display: table;
 	height: 100%;
 	width: 100%;
 }
 .main{
+	position: relative;
 	color:white;
 	display: table-cell;
 	text-align: center;
 	vertical-align: middle;
 }
-
 h1 {
 	font-family: "Signika", sans-serif !important;
 	font-size:3em;
@@ -30,7 +30,37 @@ i{
 	font-size:4em !important;
 	color: #fd3f3f;
 }
-.back{
-	text-align: right;
-	vertical-align: right;
+.name{
+	text-transform: uppercase;
+	font-size: 1em;
+	line-height: 1.33em;
+	position: absolute;
+	letter-spacing: .2em;
+	font-family: "Signika", sans-serif !important;
+	color: #fd3f3f;
+}
+#home{ 
+	z-index: 2;
+	background: black;
+ }
+#myModal{
+	cursor: pointer;
+}
+#noline{
+	float:left;
+	padding: 6px 10px 0 10px;
+}
+#primary-nav{
+	float:right;
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+#primary-nav li {
+	display:inline-block;
+	color: white;
+	font-size:1.5em;
+	line-height: 1.33333em;
+	letter-spacing: .15em;
+	font-family: "Gudea" !important;
 }
